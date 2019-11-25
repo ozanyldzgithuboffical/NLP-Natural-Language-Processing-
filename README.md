@@ -3,13 +3,13 @@
 - Natural Language Processing, usually shortened as NLP, is a branch of artificial intelligence that deals with the interaction between computers and humans using the natural language.
 
   1. **Natural Language Processing (NLP)**
-  - Enterance to DDI World
-  - Sparce Matrix & Spelling Signs
-  - Big &.Small Letters
-  - Stop Words
-  - Stemmer
-  - CounterVectorizer
-  - Classification
+  - **Enterance to DDI World**
+  - **Sparce Matrix & Spelling Signs**
+  - **Big &.Small Letters**
+  - **Stop Words**
+  - **Stemmer**
+  - **CounterVectorizer**
+  - **Classification**
   
   - **NLP** consists of some core approaches which help the machines to understand the language and generate it in return
   1.**Linguistic Approach**
@@ -30,11 +30,12 @@
   
   
  - **Some Usage Fields of Natural Language Processing**
-  1.**Emotion Analysis**
-  2.**Text Classification**
-  3.**Text Summarization**
-  4.**Question Answering**
-  5.**Tag Clouds & Extracting Keywords**
+ 
+  - 1.**Emotion Analysis**
+  - 2.**Text Classification**
+  - 3.**Text Summarization**
+  - 4.**Question Answering**
+  - 5.**Tag Clouds & Extracting Keywords**
   
  - **Some Language Libraries**
  1. **NLTK**
