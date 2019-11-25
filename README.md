@@ -49,31 +49,31 @@
  - **Steps of NLP**
  
  **Data Source For NLP** ----> **Preprocessing (Stop Words,BOW)** ---> **Feature Engineering(N-gram,TF-IDF)**--->**ML**----->**Results**
+ 
+ ## Sparse Matrix & Spelling Sign
+- Consider the following sentences:
+  
+  **Mary, is hungry for apples.**
 
-## Announcement
-- Overview of Deep Learning, **Dimension Reduction** , **Model Selection** , **XGBoot** topics will be under **Deep Learning Repo** 
-- **Convolutional Neural Networks (CNN)** will be under **Artificial Intelligence Repo (AI)** 
-- **Computer Vision** , **Self Autonomous Driving** with Tensorflow-Keras & Computer Vision & Deep Learning Repos will be also shared 
-- **Kubernates** repo will be also shared 
-- You can also check out Java Spring Framework series which will include **Spring Core,Spring MVC,Spring Boot** repo under
-[Java Spring Framework Repo](https://github.com/ozanyldzgithuboffical/Spring)
-- You can also check out Machine Learning series which will include **Machine Learning Basis,Prediction,Pre-Processing,Regression,Classification,Clustring & Reinforcement Learning** techniques.
-[Machine Learning Repo](https://github.com/ozanyldzgithuboffical/OzanYldzML)
-- **Spring Microservices with Spring Cloud** repo will be also available later 
+  **John is happy he is not hungry for apples.**
+  
+- **Step 1: Get rid of all punctuation marks.**
 
-## About the Repo
-- This repo is open-source and aims at giving an overview about the top-latest topics that will lead learning of the basis of machine learning and intelligent systems basis .
+> Mary is hungry for apples
+> John is happy he is not hungry for apples
+- **Step 2: Make all letters lowercase. Computers distinguish between uppercase and lowercase and as such will treat ‘A’ and ‘a’ differently.**
 
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+> mary is hungry for apples
+> john is happy he is not hungry for apples
 
-Please make sure to update tests as appropriate. Thanks.
+- **Step 3: Separate each word in each sentence so that it becomes its own entity. This is a process known as tokenization and the resultant individual words are known as tokens**
 
-**OZAN YILDIZ**
--Computer Engineer at HAVELSAN Ankara/Turkey 
-**Linkedin**
-[Ozan YILDIZ Linkedin](https://www.linkedin.com/in/ozan-yildiz-b8137a173/)
+> [mary], [is], [hungry], [for], [apples]
+> [john], [is], [happy], [he], [is], [not], [hungry], [for], [apples]
 
-## License
-[MIT](https://choosealicense.com/licenses/mit/)
+- **Step 4: Get all the unique words in both sentences and assign a particular position (index) to them.**
+
+> [mary], [is], [hungry], [for], [apples], [john], [happy], [he], [not]
+
+- **Step 5: Convert each word to a number. For each word in each sentence, assign the assign the number of times the word occurs in that sentence to the word in question. This is a process known as count vectorization.**
 
