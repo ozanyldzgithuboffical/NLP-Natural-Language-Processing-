@@ -18,6 +18,8 @@
 - **Kubernates** repo will be also shared 
 - You can also check out Java Spring Framework series which will include **Spring Core,Spring MVC,Spring Boot** repo under
 [Java Spring Framework Repo](https://github.com/ozanyldzgithuboffical/Spring)
+- You can also check out Machine Learning series which will include **Machine Learning Basis,Prediction,Pre-Processing,Regression,Classification,Clustring & Reinforcement Learning** techniques.
+[Machine Learning Repo](https://github.com/ozanyldzgithuboffical/OzanYldzML)
 - **Spring Microservices with Spring Cloud** repo will be also available later 
 
 ## About the Repo
