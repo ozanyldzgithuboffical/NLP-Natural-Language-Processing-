@@ -11,6 +11,43 @@
   - CounterVectorizer
   - Classification
   
+  - **NLP** consists of some core approaches which help the machines to understand the language and generate it in return
+  1.**Linguistic Approach**
+  2.**Statistical Approach** 
+  3.**Hybrid Approach**
+  
+  - **Linguistic Approach** is dealt by linguistics and has sub-branches which is about the structure of the sentences
+  1. **Morphology** => Looks for roots and words of the sentences and their different meanings changing in the sentence
+  2. **Syntax** => Determines the exact place of the usage of these words by taking consideration of their meanings
+  3. **Semantics** => Understanding the meaning of the word for the sentence
+  4. **Pragmatics** => Understanding the sense of the word usage in the sentence or for whole sentence
+  
+  - **Statistical Approach** is about the pre-processing and feature extraction of the NLP where machines can understand.
+  1.**N-gram**
+  2.**TFIDF**
+  3.**Word Grow**
+  4.**Bag of Words (BOW)**
+  
+  
+ - **Some Usage Fields of Natural Language Processing**
+  1.**Emotion Analysis**
+  2.**Text Classification**
+  3.**Text Summarization**
+  4.**Question Answering**
+  5.**Tag Clouds & Extracting Keywords**
+  
+ - **Some Language Libraries**
+ 1. **NLTK**
+ 2. **SpacCY**
+ 3. **Standford NLP**
+ 4. **Open NLP**
+ 5. **Amueller Word Cloud**
+ 6. **Tensorflow**
+ 7. **Rapid Automatic Keyword Extraction (RAKE)**
+ 
+ - **Steps of NLP**
+ **Data Source For NLP** ----> **Preprocessing (Stop Words,BOW) -----> **Feature Engineering(N-gram,TF-IDF)---->**ML**----->**Results**
+
 ## Announcement
 - Overview of Deep Learning, **Dimension Reduction** , **Model Selection** , **XGBoot** topics will be under **Deep Learning Repo** 
 - **Convolutional Neural Networks (CNN)** will be under **Artificial Intelligence Repo (AI)** 
