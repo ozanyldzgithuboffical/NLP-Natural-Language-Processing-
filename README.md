@@ -60,6 +60,8 @@
 - You can also check out Machine Learning series which will include **Machine Learning Basis,Prediction,Pre-Processing,Regression,Classification,Clustring & Reinforcement Learning** techniques.
 [Machine Learning Repo](https://github.com/ozanyldzgithuboffical/OzanYldzML)
 - **Spring Microservices with Spring Cloud** repo will be also available later 
+- **Computer Vision on Deep Learning Repo** is available now.
+[Computer Vision on Deep Learning Repo](https://github.com/ozanyldzgithuboffical/ComputerVisiononDeepLearning)
 
 ## About the Repo
 - This repo is open-source and aims at giving an overview about the top-latest topics that will lead learning of the basis of machine learning and intelligent systems basis .
